@@ -1,0 +1,36 @@
+{
+    "name": "softpyramid/date-time-picker",
+    "description": "A Laravel Nova field.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "admin"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fakhar Khan",
+            "email": "fakhar@softpyramid.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Softpyramid\\DateTimePicker\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Softpyramid\\DateTimePicker\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
