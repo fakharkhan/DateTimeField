@@ -2,7 +2,7 @@
     <default-field :field="field" :errors="errors">
         <template slot="field">
             <vue-ctk-date-time-picker
-                    :id="field.name"
+                    :id="field.attribute"
                     v-model="value"
                     class="w-full form-control"
                     :class="errorClasses"

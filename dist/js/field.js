@@ -29045,7 +29045,7 @@ var render = function() {
             staticClass: "w-full form-control",
             class: _vm.errorClasses,
             attrs: {
-              id: _vm.field.name,
+              id: _vm.field.attribute,
               dusk: _vm.field.attribute,
               formatted: _vm.field.format,
               format: _vm.field.format,
